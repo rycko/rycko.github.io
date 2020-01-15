@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+	<meta charset="utf-8">
+	<meta name="description" content='Este es un blog creado para ayudar a las personas en general y a empresas a encontrar un sitio en Internet. La intención es ayudar en diferentes ramas de la informatica, el diseño y el marketing digital a quien lo necesite. Contamos con artículos sobre como crear miniaturas para tus videos de youtube, hasta como crear tu E-commerce, tambien encontraras revistas digitales con información muy interesante que te puede ayudar a crecer tu negocio en Internet. Entra para obtener más información.'>
+	<meta name="keywords" content='rycko, programación web, diseño grafico, diseño web, revistas digitales, emprendimiento, ideas para ganar dinero con fiverr, blog, ideas para ganar dinero, tarjetas de presentación digitales, revistas digitales, ideas para llegar a mas personas, link building, SEO, crecer mi negocio en internet, programación de pautas display'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="Hugo 0.62.0" />
+	<link rel="stylesheet" type="text/css" href='http://example.org/css/bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href='http://example.org/css/style.css'>
+	<title>Empezando con Kubernetes, instalación de Microk8s</title>
+	<nav class="navbar text-center bg-gray sticky-top mt-2 mb-1">
+		<a href='http://example.org/'><span class="btn btn-sm btn-outline-primary">Hola!</span></a>
+		<a href='http://example.org/about'><span class="btn btn-sm btn-outline-secondary">¿Rycko?</span></a>
+		<a href='http://example.org/post'><span class="btn btn-sm btn-outline-success">Blog</span></a>
+		
+		<a href='http://example.org/revistas'><span class="btn btn-sm btn-outline-warning">Revistas digitales</span></a>
+		<a href='http://example.org/contacto'><span class="btn btn-sm btn-outline-contact">Contactame</span></a>
+	</nav>
+</head>
+<body>
+      <div id="content">
+
+
+	<section class="container text-monospace text-justified mt-3">
+	  <h2>Empezando con Kubernetes, instalación de Microk8s</h2>
+	  <small class="text-secondary mb-5">enero - 10 - 2020 | 1 minuto(s) para leerlo</small>
+	  <p><p>Kubernetes es una plataforma open source que facilita la automatización de procesos en linux.</p>
+<p>Puede crear un grupo de servidores que se comportan como uno y hostear contenedores de linux, entonces Kubernetes ayuda a administrar de manera facil y eficaz estos servidores.</p>
+<p>Microk8s es un paquete para poder instalar Kubernetes en una computadora, está pensado para desarrolladores, para poder tener un entorno donde desplegar tus proyectos de manera local.</p>
+<h2 id="instalacin-de-microk8s">Instalación de Microk8s</h2>
+<p>Para poder instalarlo necesitas una computadora con el sistema operativo que admita el comando <a href="https://snapcraft.io/docs/installing-snapd">snapd</a>.</p>
+<p>Es recomendable un equipo con 4gb de ram por lo menos.</p>
+<p>1.- Instalamos Microk8s desde la terminal con este comando:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$sudo snap install microk8s  --classic</code></pre></div>
+2.- Debes unirte al grupo creado por microk8s.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$sudo usermod -a -G microk8s $USER</code></pre></div>
+3.- Checa el estatus de tu instalación.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.status --wait-ready</code></pre></div>
+4.- Puedes acceder a los nodos de la siguiente manera:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.kubectl get nodes</code></pre></div>
+5.- También puedes acceder a los servicios.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.kubectl get service</code></pre></div>
+6.- Puedes detener e iniciar micrk8s con estos comandos.</p>
+<p>Para iniciarlo:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.start</code></pre></div>
+Para detenerlo:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.stop</code></pre></div></p></p>
+	  <code>tags:<span class='badge badge-dark li-tag Kubernetes'><a class='text-white' href='http://example.org/tags/kubernetes'>Kubernetes</a></span>
+	  <span class='badge badge-dark li-tag Microk8s'><a class='text-white' href='http://example.org/tags/microk8s'>Microk8s</a></span>
+	  
+	  </code>
+	  <div class="container mt-2" id="comments">
+	    
+		<small class="mt-1">Por favor si tienes algún comentario sobre este sitio enviame un correo a <a href="rycko@gmail.com">rycko@gmail.com</a></small><br>
+	    
+	  </div>
+	</section>
+
+
+
+      </div>
+  </body><footer>
+  <div class="container-fluid text-white text-monospace text-center mt-4">
+  	<div class="">
+			<a href="https://github.com/rycko"><span class="badge badge-pill badge-dark">Github</span></a>
+			<a href="https://codepen.io/rycko"><span class="badge badge-pill badge-danger">Codepen</span></a>
+			<a href="https://behance.net/antoniocontrer1"><span class="badge badge-pill badge-success">Behance</span></a>
+			<a href="https://www.linkedin.com/in/ricardo-contreras-ramos/"><span class="badge badge-pill badge-warning">Linkedin</span></a>
+
+    </div>
+    <small>Este sitio fue creado con el generador de sitios <a href="https://gohugo.io/">Hugo</a> y mucho café.</small><br>
+    <small><a href='http://example.org/contacto' class="li-link">Contacta con Rycko.</a></small>
+  </div>
+  
+</footer>
+</html>

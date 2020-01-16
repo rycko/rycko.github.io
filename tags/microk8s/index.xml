@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microk8s on Rycko</title>
-    <link>https://rycko.github.io/tags/microk8s/</link>
+    <link>https://rycko.online/tags/microk8s/</link>
     <description>Recent content in Microk8s on Rycko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
     <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rycko.github.io/tags/microk8s/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rycko.online/tags/microk8s/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Empezando con Kubernetes, instalación de Microk8s</title>
-      <link>https://rycko.github.io/post/kubernetes-microk8s/</link>
+      <link>https://rycko.online/post/kubernetes-microk8s/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rycko.github.io/post/kubernetes-microk8s/</guid>
+      <guid>https://rycko.online/post/kubernetes-microk8s/</guid>
       <description>&lt;p&gt;Kubernetes es una plataforma open source que facilita la automatización de procesos en linux.&lt;/p&gt;
 &lt;p&gt;Puede crear un grupo de servidores que se comportan como uno y hostear contenedores de linux, entonces Kubernetes ayuda a administrar de manera facil y eficaz estos servidores.&lt;/p&gt;
 &lt;p&gt;Microk8s es un paquete para poder instalar Kubernetes en una computadora, está pensado para desarrolladores, para poder tener un entorno donde desplegar tus proyectos de manera local.&lt;/p&gt;

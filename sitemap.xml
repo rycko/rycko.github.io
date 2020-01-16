@@ -8,7 +8,12 @@
   </url>
   
   <url>
-    <loc>https://rycko.online/post/kubernetes-microk8s/</loc>
+    <loc>https://rycko.online/blog/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/blog/kubernetes-microk8s/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -19,11 +24,6 @@
   
   <url>
     <loc>https://rycko.online/tags/microk8s/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/post/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url>
   

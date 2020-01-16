@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Rycko</title>
+    <link>https://rycko.online/blog/</link>
+    <description>Recent content in Blogs on Rycko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rycko.online/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Empezando con Kubernetes, instalación de Microk8s</title>
+      <link>https://rycko.online/blog/kubernetes-microk8s/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/kubernetes-microk8s/</guid>
+      <description>&lt;p&gt;Kubernetes es una plataforma open source que facilita la automatización de procesos en linux.&lt;/p&gt;
+&lt;p&gt;Puede crear un grupo de servidores que se comportan como uno y hostear contenedores de linux, entonces Kubernetes ayuda a administrar de manera facil y eficaz estos servidores.&lt;/p&gt;
+&lt;p&gt;Microk8s es un paquete para poder instalar Kubernetes en una computadora, está pensado para desarrolladores, para poder tener un entorno donde desplegar tus proyectos de manera local.&lt;/p&gt;
+&lt;h2 id=&#34;instalacin-de-microk8s&#34;&gt;Instalación de Microk8s&lt;/h2&gt;
+&lt;p&gt;Para poder instalarlo necesitas una computadora con el sistema operativo que admita el comando &lt;a href=&#34;https://snapcraft.io/docs/installing-snapd&#34;&gt;snapd&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Es recomendable un equipo con 4gb de ram por lo menos.&lt;/p&gt;
+&lt;p&gt;1.- Instalamos Microk8s desde la terminal con este comando:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$sudo snap install microk8s  --classic&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+2.- Debes unirte al grupo creado por microk8s.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$sudo usermod -a -G microk8s $USER&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+3.- Checa el estatus de tu instalación.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$microk8s.status --wait-ready&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+4.- Puedes acceder a los nodos de la siguiente manera:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$microk8s.kubectl get nodes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+5.- También puedes acceder a los servicios.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$microk8s.kubectl get service&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+6.- Puedes detener e iniciar micrk8s con estos comandos.&lt;/p&gt;
+&lt;p&gt;Para iniciarlo:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$microk8s.start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Para detenerlo:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$microk8s.stop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -105,6 +105,12 @@ img[alt=Rycko_Web_Programer]{
 .Kubernetes{
     background-color: #e40!important; 
 }
+.python{
+    background-color: #0C4D04;
+}
+.programacion{
+    background-color: #04244D;
+}
 pre code{
     width: 100%;
     padding: 2px;

@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
-    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rycko.online/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como empezar a programar con Python</title>
+      <link>https://rycko.online/blog/cursodepythonuno/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/cursodepythonuno/</guid>
+      <description>&lt;p&gt;Python es un lenguaje de programación que se ha hecho muy popular en los últimos años, ya que es un lenguaje de programación muy potente con una amplia variedad de aplicaciones y tiene una curva de aprendizaje baja, es decir que es relativamente facil de aprender.&lt;/p&gt;
+&lt;h2 id=&#34;instalacin&#34;&gt;Instalación.&lt;/h2&gt;
+&lt;p&gt;La instalación de este lenguaje es muy sencilla.&lt;/p&gt;
+&lt;p&gt;En Windows solo tienes que descargar el instalador, desde &lt;a href=&#34;https://www.python.org/downloads/windows/&#34;&gt;aquí&lt;/a&gt; lo puedes hacer, solo asegurate de descargar la versión correcta para tu sistema operativo, después de esto solo tienes que darle doble click y seguir las instrucciones.&lt;/p&gt;
+&lt;p&gt;En OSX lo primero que debes hacer es verificar que tu sistema operativo acepte paquetes que &lt;strong&gt;NO&lt;/strong&gt; están en la app store, después debes bajar el repositorio, &lt;a href=&#34;https://www.python.org/downloads/release/python-361/&#34;&gt;este es el enlace&lt;/a&gt;, por último solo debes asegurarte de descargar la versión correcta para tu sistema operativo y darle doble click al instalador.&lt;/p&gt;
+&lt;p&gt;En Ubuntu lo más probable es que ya este instalado por default, si quieres verificarlo solo debes colocar el siguiente comando:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ python3 --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Si no lo tienes instalado te dejo a continuación una lista de comandos para instalarlo en diferentes distribuciones de Linux.&lt;/p&gt;
+&lt;p&gt;Debian, Ubuntu.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ sudo apt install python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Fedora
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ sudo dnf install python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+OpenSUSU
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ sudo zypper install python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Para verificar la instalación exitosa de Python ingresa el siguiente comando en la terminal.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ python3 --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Empezando con Kubernetes, instalación de Microk8s</title>

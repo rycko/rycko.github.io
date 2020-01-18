@@ -111,6 +111,21 @@ img[alt=Rycko_Web_Programer]{
 .programacion{
     background-color: #04244D;
 }
+.ecommerce{
+    background-color: #EE82EE;
+}
+.marketing{
+    background-color: #D2B48C;
+}
+.instagram{
+    background-color: #800000;
+}
+.facebook{
+    background-color: #006400;
+}
+.google-analytics{
+    background-color: #FF00FF;
+}
 pre code{
     width: 100%;
     padding: 2px;

@@ -95,9 +95,20 @@ img[alt=Rycko_Web_Programer]{
     background-image: none;
     border-color: #000;
 }
+
 .btn-outline-contact:hover{
 	background-color: #000;
 	color: #fff;
+}
+.btn-outline-service{
+    color: #d2cf1e;
+    background-color: transparent;
+    background-image: none;
+    border-color: #d2cf1e;
+}
+.btn-outline-service:hover{
+    background-color: #d2cf1e;
+    color: #000;
 }
 .bg-gray{
     background-color: #333;

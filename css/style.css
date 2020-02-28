@@ -140,10 +140,22 @@ img[alt=Rycko_Web_Programer]{
 .SEO{
     background-color: #9d9bb5; 
 }
-
+.google{
+    background-color: #916f53;
+}
+.hosting{
+    background-color: #7a93ac;
+}
+.google-cloud{
+    background-color: #d50544;
+}
 pre code{
     width: 100%;
     padding: 2px;
     background-color: #222;
     color: #fff;
+}
+img[alt="Como crear tu pagina web con hosting gratuito por un año con Google Cloud Platform y Wordpress"]{
+    width: 90%;
+
 }

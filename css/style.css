@@ -155,6 +155,9 @@ pre code{
     background-color: #222;
     color: #fff;
 }
+img[title=administracion-facebook]{
+   width:25%;
+}
 img[alt=Como_crear_tu_pagina_web_con_hosting_gratuito_por_un_año_con_Google_Cloud_Platform_y_Wordpress]{
     width: 90%;
 }

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rycko.online/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>5 realidades de las redes sociales</title>
+      <link>https://rycko.online/blog/realidades_redes_sociales/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/realidades_redes_sociales/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hosting gratuito y de calidad por un año con google cloud platform</title>
@@ -111,14 +120,14 @@ Me gusta mucho resolver problemas y ofrecer soluciones útiles y practicas con l
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rycko.online/contacto/</guid>
-      <description>👋😃 ¡Hola mundo!Puedes contactarme por medio de mi correo rycko.arcr@gmail.com📭, puedes llamar al 2721715236📞 o mandame un Whatsapp al 2721432867
+      <description>👋😃 ¡Hola!Puedes contactarme por medio de mi correo rycko.arcr@gmail.com📭, puedes llamar al 2721715236📞 o mandame un Whatsapp al 2721432867
 También me puedes contactar en estos lugares.
 ✏ Github
 ✏ Codepen
 ✏ Behance
 ✏ Twitter
 ✏ LinkedIn
-Siéntete libre de ponerte en contacto conmigo para cualquier duda, sugerencia o simplemente para saludar con gusto te responderé.</description>
+Espero tu mensaje, puedes ver mis vídeos en Youtube.</description>
     </item>
     
     <item>
@@ -130,7 +139,7 @@ Siéntete libre de ponerte en contacto conmigo para cualquier duda, sugerencia o
       <description>Joe Rocket México Tienda virtual para motociclistas.
 Pastas la perla Landing page con recetario y vídeo a youtube.
 OnPost Blog sobre cultura general.
-sneakers.online Tienda de referidos de amazón.
+sneakersmexico.online Tienda de afiliación de amazón.
 outfitboutique.com Tienda de ropa en línea.
 Zenitlc Empresa en el sector inmobiliario.
 Onena Tienda de calzado en línea.</description>
@@ -144,6 +153,16 @@ Onena Tienda de calzado en línea.</description>
       <guid>https://rycko.online/servicios/</guid>
       <description>Administración de página de Facebook Hoy en día las redes sociales se han vuelto una gran herramienta para conseguir clientes potenciales y Facebook es la red social por excelencia. Yo te ayudare a captar el mayor numero de clientes potenciales posibles a través de tu página de Facebook, te ayudo a crearla y si ya tienes una te ayudo a optimizarla.
 Administración, creación, estructuración y optimización de sitios web Los sitios web son importantes plataformas para cualquier tipo de organización, estos le dan identidad a cualquier empresa y también son una forma de captar clientes dándoles un sentido de pertenencia y confianza.</description>
+    </item>
+    
+    <item>
+      <title>Terminos y codiciones del sitio</title>
+      <link>https://rycko.online/terminos-y-condiciones/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/terminos-y-condiciones/</guid>
+      <description>1. Introducción Al acceder o utilizar la información en rycko.online, en adelante el Sitio Web, usted acepta estos Términos y Condiciones de Uso y Privacidad. Si usted no acepta, no podrá continuar usando este sitio web.
+2. Precisión, integridad y actualidad de la Información en este Sitio Web No somos responsables si las informaciones que estuvieran disponibles en este sitio web no fueran precisas, completas o actualizadas. El material en este Sitio Web es provisto solamente para información general y no debe ser tomado como base o usado como la única base para tomar decisiones sin antes consultar fuentes de información primaria más precisas, completas y/o actualizadas.</description>
     </item>
     
   </channel>

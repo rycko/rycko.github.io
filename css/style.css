@@ -28,6 +28,7 @@ a{
 	color: #e1e0e0;
 	margin: 2em 0;
 }
+
 hr{
 	width: 200px;
 	background-color: #e1e0e0; 
@@ -149,6 +150,10 @@ img[alt=Rycko_Web_Programer]{
 .wordpress{
     background-color: #d50544;
 }
+.redes-sociales{
+    background-color: #ecaa73;
+}
+
 pre code{
     width: 100%;
     padding: 2px;

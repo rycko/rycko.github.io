@@ -162,7 +162,7 @@ img[alt=Rycko_Web_Programer]{
 .hugo{
     background-color: #36dcdd;
 }
-img[title=administracion-facebook]{
+img[title=administracion-facebook], img[title=servicios-web], img[title=servicios-de-diseño], img[title=seo]{
    width:25%;
 }
 img[title=google-cloud]{

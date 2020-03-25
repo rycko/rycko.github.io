@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://rycko.online/</loc>
-    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rycko.online/blog/</loc>
-    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/tags/github/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/tags/hosting/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/blog/hosting-gratis-para-paginas-web/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/tags/hugo/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/tags/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://rycko.online/tags/</loc>
-    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/blog/curso_hugo_1/</loc>
-    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/tags/github/</loc>
-    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/tags/hugo/</loc>
+    <loc>https://rycko.online/blog/crear-pagina-web-hugo/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,11 +79,6 @@
   
   <url>
     <loc>https://rycko.online/tags/google/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/tags/hosting/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,11 +159,6 @@
   
   <url>
     <loc>https://rycko.online/portafolio/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/servicios/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   

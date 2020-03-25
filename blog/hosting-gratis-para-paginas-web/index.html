@@ -7,7 +7,7 @@
 	<meta name="generator" content="Hugo 0.62.0" />
 	<link rel="stylesheet" type="text/css" href='https://rycko.online/css/bootstrap.min.css'>
 	<link rel="stylesheet" type="text/css" href='https://rycko.online/css/style.css'>
-	<title>Empezando con Kubernetes, instalación de Microk8s</title>
+	<title>Hosting gratis para páginas web con github</title>
 	<nav class="navbar text-center bg-gray sticky-top mt-2 mb-1">
 		<a href='https://rycko.online'><span class="btn btn-sm btn-outline-primary">¡Hola!</span></a>
 		<a href='https://rycko.online/about'><span class="btn btn-sm btn-outline-secondary">Acerca de Rycko</span></a>
@@ -37,31 +37,40 @@ if (!doNotTrack) {
 
 
 	<section class="container text-monospace text-justified mt-3">
-	  <h2>Empezando con Kubernetes, instalación de Microk8s</h2>
-	  <small class="text-secondary mb-5">enero - 10 - 2020 | 1 minuto(s) para leerlo</small>
-	  <p><p>Kubernetes es una plataforma open source que facilita la automatización de procesos en linux.</p>
-<p>Puede crear un grupo de servidores que se comportan como uno y hostear contenedores de linux, entonces Kubernetes ayuda a administrar de manera facil y eficaz estos servidores.</p>
-<p>Microk8s es un paquete para poder instalar Kubernetes en una computadora, está pensado para desarrolladores, para poder tener un entorno donde desplegar tus proyectos de manera local.</p>
-<h2 id="instalacin-de-microk8s">Instalación de Microk8s</h2>
-<p>Para poder instalarlo necesitas una computadora con el sistema operativo que admita el comando <a href="https://snapcraft.io/docs/installing-snapd">snapd</a>.</p>
-<p>Es recomendable un equipo con 4gb de ram por lo menos.</p>
-<p>1.- Instalamos Microk8s desde la terminal con este comando:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$sudo snap install microk8s  --classic</code></pre></div>
-2.- Debes unirte al grupo creado por microk8s.
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$sudo usermod -a -G microk8s $USER</code></pre></div>
-3.- Checa el estatus de tu instalación.
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.status --wait-ready</code></pre></div>
-4.- Puedes acceder a los nodos de la siguiente manera:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.kubectl get nodes</code></pre></div>
-5.- También puedes acceder a los servicios.
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.kubectl get service</code></pre></div>
-6.- Puedes detener e iniciar micrk8s con estos comandos.</p>
-<p>Para iniciarlo:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.start</code></pre></div>
-Para detenerlo:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$microk8s.stop</code></pre></div></p></p>
-	  <code>tags:<span class='badge badge-dark li-tag kubernetes'><a class='text-white' href='https://rycko.online/tags/kubernetes'>kubernetes</a></span>
-	  <span class='badge badge-dark li-tag microk8s'><a class='text-white' href='https://rycko.online/tags/microk8s'>microk8s</a></span>
+	  <h2>Hosting gratis para páginas web con github</h2>
+	  <small class="text-secondary mb-5">enero - 24 - 2020 | 2 minuto(s) para leerlo</small>
+	  <p><p><a href="https://youtu.be/i6AeK21UNKs"><img src="/img/hosting-gratis-github.png" alt="Hosting gratuito para paginas web con github" title="hosting-gratis-github"></a></p>
+<p>¿Quieres conseguir hosting gratis y de calidad? Es muy sencillo, a continuación te dejo una guía de como conseguir hosting gratis y construir una página profesional de manera muy rápida y fácil.</p>
+<p>Antes que nada dejame aclararte que estos hosting son para sitios web estáticos.</p>
+<h2 id="sitios-web-estticos">Sitios web estáticos</h2>
+<p>Los sitios web estáticos son sitios que son principalmente informativos, no tienen una interacción con el cliente en el momento de la sesión, por lo que este tipo de sitios web son recomendables para tiendas de afiliación, blogs, webs educativas, landing page, páginas para ad sense y lo que puedas imaginar.</p>
+<h2 id="hosting-gratis-para-tu-pgina-web-con-github">hosting gratis para tu página web con github</h2>
+<h3 id="crea-tu-pgina-web-esttica">Crea tu página web estática.</h3>
+<p>Lo primero es crear tu página web, yo te recomiendo hacerlo con hugo, que es un generador de sitios estáticos y <a href="https://rycko.online/blog/crear-pagina-web-hugo/">aquí</a> te dejo el enlace a un artículo donde explico como hacerlo.</p>
+<h3 id="subelo-a-github">Subelo a github</h3>
+<p>1.- Debes tener una cuenta en github con cualquier correo la puedes abrir.</p>
+<p>2.- Crea un nuevo repositorio nuevo, da click en el botón verde que dice new en la sección repositories en el lado derecho de la pantalla.</p>
+<p>3.- Nombralo con esta nomenclatura (Muy importante).
+example.github.io</p>
+<p>4.- Abre tu repositorio y clonalo en tu computadora con el botón verde que dice clone or download, solo dale click y copia la dirección que se te desplega.
+Después abre una ventana de terminal y escribe:</p>
+<p>git clone la-dirección-que-copiaste-en-el-repositorio</p>
+<p>5.- Copia todos los archivos de tu página estática en el directorio clonado.</p>
+<p>6.- Subelo por medio de git con estos comandos:
+git add .
+git commit -m “puedes nombrarlo como tu quieras”
+git push origin master</p>
+<p>con esto ya debería de estar tu sitio arriba.</p>
+<h3 id="configura-github-pages">Configura github pages</h3>
+<p>Haz click, en el repositorio, en la sección configuration en la última pestaña del lado derecho de la sección.
+Después desplázate hasta la sección que se llama github pages y cambia la sección que dice Source, donde aparecerá un botón que dice none, entonces despliega y escoge master branch o master branch/docs folder y habilita la casilla enforce https.
+Dale refrescar a la pagina y te aparecerá un mensaje como este  Your site is published at <a href="https://example.github.io,">https://example.github.io,</a></p>
+<p>Por último también puedes configurar un dominio propio en la sección custom domain.</p>
+<p>Espero que esta información te sea de utilidad para tus proyectos.</p>
+</p>
+	  <code>tags:<span class='badge badge-dark li-tag hosting'><a class='text-white' href='https://rycko.online/tags/hosting'>hosting</a></span>
+	  <span class='badge badge-dark li-tag github'><a class='text-white' href='https://rycko.online/tags/github'>github</a></span>
+	  <span class='badge badge-dark li-tag hugo'><a class='text-white' href='https://rycko.online/tags/hugo'>hugo</a></span>
 	  
 	  </code>
 	  <div class="container mt-2" id="comments">

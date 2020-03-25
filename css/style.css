@@ -165,11 +165,8 @@ img[alt=Rycko_Web_Programer]{
 img[title=administracion-facebook], img[title=servicios-web], img[title=servicios-de-diseño], img[title=seo], img[title=insta]{
    width:25%;
 }
-img[title=google-cloud]{
+img[title=google-cloud], img[title=hugo], img[title=hosting-gratis-github]{
     width: 70%;
-}
-img[title=hugo]{
-   width:70%;
 }
 pre code{
     width: 100%;

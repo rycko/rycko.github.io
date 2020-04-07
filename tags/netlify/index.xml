@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netlify on Desarrollo web, marketing digital, SEO</title>
+    <link>https://rycko.online/tags/netlify/</link>
+    <description>Recent content in netlify on Desarrollo web, marketing digital, SEO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rycko.online/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crear una tarjeta de presentación digital</title>
+      <link>https://rycko.online/blog/tarjeta_de_presentacion_digital/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/tarjeta_de_presentacion_digital/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

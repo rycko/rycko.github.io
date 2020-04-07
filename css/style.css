@@ -162,6 +162,13 @@ img[alt=Rycko_Web_Programer]{
 .hugo{
     background-color: #36dcdd;
 }
+.badge-face{ 
+    background-color: violet; 
+}
+.badge-twit{ 
+    background-color: gray; 
+}
+
 img[title=administracion-facebook], img[title=servicios-web], img[title=servicios-de-diseño], img[title=seo], img[title=insta]{
    width:25%;
 }

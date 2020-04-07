@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Desarrollo web, marketing digital, SEO</title>
+    <title>Rycko</title>
     <link>https://rycko.online/</link>
-    <description>Recent content on Desarrollo web, marketing digital, SEO</description>
+    <description>Recent content on Rycko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
@@ -148,8 +148,8 @@ Para detenerlo:
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rycko.online/about/</guid>
-      <description>Soy un desarrollador web que ah trabajado en varias agencias de publicidad en la ciudad de México y me dí cuenta que los precios que se manejan en publicidad son muy altos para las empresas y aún más para los emprendedores, por eso prefiero ayudar a los emprendedores y empresarios a generar publicidad de manera orgánica.
-Me gusta mucho resolver problemas y ofrecer soluciones útiles y practicas con la experiencia que he adquirido.</description>
+      <description>Hola me llamo Antonio Ricardo pero me dicen Rycko.
+Soy un programador web que estudio en Orizaba y he tenido la fortuna de trabajar en grandes empresas en México. Al inicio de mi carrera hice sistemas en Java y PHP y después en la ciudad de México me convertí en programador web haciendo paginas web en Wordpress. He trabajado principalmente en agencias de marketing haciendo sitios web, landing pages, email marketing, revistas digitales, pautas display y principalmente resolviendo problemas con respecto a programación.</description>
     </item>
     
     <item>
@@ -160,11 +160,12 @@ Me gusta mucho resolver problemas y ofrecer soluciones útiles y practicas con l
       <guid>https://rycko.online/contacto/</guid>
       <description>👋😃 ¡Hola!Puedes contactarme por medio de mi correo rycko.arcr@gmail.com📭, puedes llamar al 2721715236📞 o mandame un Whatsapp al 2721432867
 También me puedes contactar en estos lugares.
+✏ Facebook
+✏ Twitter
+✏ LinkedIn
 ✏ Github
 ✏ Codepen
 ✏ Behance
-✏ Twitter
-✏ LinkedIn
 Espero tu mensaje, puedes ver mis vídeos en Youtube.</description>
     </item>
     

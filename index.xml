@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>Copyright © 2008–2019</copyright>
-    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rycko.online/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Descarga libros gratis en tu celular con Amazon Kindle</title>
+      <link>https://rycko.online/blog/descargar-libros-gratis-en-tu-celular/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/descargar-libros-gratis-en-tu-celular/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hosting gratis para páginas web con github</title>

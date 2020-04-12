@@ -162,6 +162,15 @@ img[alt=Rycko_Web_Programer]{
 .hugo{
     background-color: #36dcdd;
 }
+.amazon{
+    background-color: #f9863d;
+}
+.libros{
+    background-color: #f47388;
+}
+.kindle{
+    background-color: #4ab3e0;
+}
 .badge-face{ 
     background-color: violet; 
 }
@@ -172,7 +181,7 @@ img[alt=Rycko_Web_Programer]{
 img[title=administracion-facebook], img[title=servicios-web], img[title=servicios-de-diseño], img[title=seo], img[title=insta]{
    width:25%;
 }
-img[title=google-cloud], img[title=hugo], img[title=hosting-gratis-github]{
+img[title=google-cloud], img[title=hugo], img[title=hosting-gratis-github], img[title=descargar-libros]{
     width: 70%;
 }
 pre code{
@@ -182,3 +191,17 @@ pre code{
     color: #fff;
 }
 
+.iframe_container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 - this is responsive by adjusting the hight according to the width! */
+    padding-top: 25px;
+    height: 0;
+}
+
+.iframe_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

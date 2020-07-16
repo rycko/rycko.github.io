@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Rycko</title>
+    <link>https://rycko.online/tags/wordpress/</link>
+    <description>Recent content in wordpress on Rycko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rycko.online/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hosting gratuito y de calidad por un año con google cloud platform</title>
+      <link>https://rycko.online/blog/hosting_gratuito_wordpress_google_cloud/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/hosting_gratuito_wordpress_google_cloud/</guid>
+      <description>Hoy en día tener un sitio web es indispensable para cualquier empresa y la elección del hosting o como lo vas a hacer siempre es un tema difícil.
+Generalmente si vas con un desarrollador te va a cobrar muy caro y hoy en día hay muchas empresas que se dedican a hacer paginas web, pero este tipo de empresas que te ofrecen paginas a un bajo costo generalmente te van a dar un producto muy genérico.</description>
+    </item>
+    
+  </channel>
+</rss>

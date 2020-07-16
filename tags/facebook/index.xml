@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>facebook on Rycko</title>
+    <link>https://rycko.online/tags/facebook/</link>
+    <description>Recent content in facebook on Rycko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Copyright © 2008–2019</copyright>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rycko.online/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 realidades de las redes sociales</title>
+      <link>https://rycko.online/blog/realidades_redes_sociales/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/realidades_redes_sociales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Como publicitar una E-commerce en internet y conseguir más clientes</title>
+      <link>https://rycko.online/blog/guia_para_publicitar_ecommerce/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/guia_para_publicitar_ecommerce/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

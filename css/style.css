@@ -88,6 +88,7 @@ hr{
 img[alt=Rycko_Web_Programer]{
 	width: 50%;
 	float: right;
+	border-radius: 50%;
 }
 .btn-outline-contact{
     color: #000;

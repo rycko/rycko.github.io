@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Academia</title>
+    <title>Authors on Rycko</title>
     <link>https://examplesite.org/authors/</link>
-    <description>Recent content in Authors on Academia</description>
+    <description>Recent content in Authors on Rycko</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <language>es-es</language>
     
 	    <atom:link href="https://examplesite.org/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,22 +13,13 @@
     <item>
       <title></title>
       <link>https://examplesite.org/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://examplesite.org/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+      <description>&lt;p&gt;Rycko es un programador web especializado en Marketing Digital. Sus intereses incluyen configuración de servidores, servicios de alojamiento para sitios web y diseño. Ha trabajado con diferentes agencias de publicidad y actualmente es asesor independiente de algunas agencias de marketing y publicidad.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../../img/certifacates.jpg&#34; alt=&#34;reviews&#34;&gt;&lt;/p&gt;
-&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.&lt;/p&gt;
+&lt;p&gt;También cuenta con un canal de Youtube sobre programación y trabaja en algunos proyectos independientes.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>https://examplesite.org/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://examplesite.org/authors/robert-ford/</guid>
-      <description></description>
     </item>
     
   </channel>

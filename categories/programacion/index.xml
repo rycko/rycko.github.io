@@ -6,10 +6,48 @@
     <description>Recent content in programación on Rycko</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://rycko.online/categories/programacion/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hosting gratis con github</title>
+      <link>https://rycko.online/blog/hosting-gratis-con-github/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/hosting-gratis-con-github/</guid>
+      <description>&lt;p&gt;¿Quieres conseguir hosting gratis y de calidad? Es muy sencillo, a continuación te dejo una guía de como conseguir hosting gratis y construir una página profesional de manera muy rápida y fácil.&lt;/p&gt;
+&lt;p&gt;Antes que nada dejame aclararte que estos hosting son para sitios web estáticos.&lt;/p&gt;
+&lt;h2 id=&#34;sitios-web-estáticos&#34;&gt;Sitios web estáticos&lt;/h2&gt;
+&lt;p&gt;Los sitios web estáticos son sitios que son principalmente informativos, no tienen una interacción con el cliente en el momento de la sesión, por lo que este tipo de sitios web son recomendables para tiendas de afiliación, blogs, webs educativas, landing page, páginas para ad sense y lo que puedas imaginar.&lt;/p&gt;
+&lt;h2 id=&#34;hosting-gratis-para-tu-página-web-con-github&#34;&gt;hosting gratis para tu página web con github&lt;/h2&gt;
+&lt;h3 id=&#34;crea-tu-página-web-estática&#34;&gt;Crea tu página web estática.&lt;/h3&gt;
+&lt;p&gt;Lo primero es crear tu página web, yo te recomiendo hacerlo con hugo, que es un generador de sitios estáticos y &lt;a href=&#34;https://rycko.online/blog/crear-pagina-web-hugo/&#34;&gt;aquí&lt;/a&gt; te dejo el enlace a un artículo donde explico como hacerlo.&lt;/p&gt;
+&lt;h3 id=&#34;subelo-a-github&#34;&gt;Subelo a github&lt;/h3&gt;
+&lt;p&gt;1.- Debes tener una cuenta en github con cualquier correo la puedes abrir.&lt;/p&gt;
+&lt;p&gt;2.- Crea un nuevo repositorio nuevo, da click en el botón verde que dice new en la sección repositories en el lado derecho de la pantalla.&lt;/p&gt;
+&lt;p&gt;3.- Nombralo con esta nomenclatura (Muy importante).
+example.github.io&lt;/p&gt;
+&lt;p&gt;4.- Abre tu repositorio y clonalo en tu computadora con el botón verde que dice clone or download, solo dale click y copia la dirección que se te desplega.
+Después abre una ventana de terminal y escribe:&lt;/p&gt;
+&lt;p&gt;git clone la-dirección-que-copiaste-en-el-repositorio&lt;/p&gt;
+&lt;p&gt;5.- Copia todos los archivos de tu página estática en el directorio clonado.&lt;/p&gt;
+&lt;p&gt;6.- Subelo por medio de git con estos comandos:
+git add .
+git commit -m “puedes nombrarlo como tu quieras”
+git push origin master&lt;/p&gt;
+&lt;p&gt;con esto ya debería de estar tu sitio arriba.&lt;/p&gt;
+&lt;h3 id=&#34;configura-github-pages&#34;&gt;Configura github pages&lt;/h3&gt;
+&lt;p&gt;Haz click, en el repositorio, en la sección configuration en la última pestaña del lado derecho de la sección.
+Después desplázate hasta la sección que se llama github pages y cambia la sección que dice Source, donde aparecerá un botón que dice none, entonces despliega y escoge master branch o master branch/docs folder y habilita la casilla enforce https.
+Dale refrescar a la pagina y te aparecerá un mensaje como este:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Your site is published at https://example.github.io, 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Por último también puedes configurar un dominio propio en la sección custom domain.&lt;/p&gt;
+&lt;p&gt;Espero que esta información te sea de utilidad para tus proyectos.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Crea una página web profesional Hugo y github.</title>

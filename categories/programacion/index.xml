@@ -82,5 +82,62 @@ Otra forma sería, con git instalado en tu máquina, copias la dirección del te
 Traté de resumirlo y hacerlo lo más claro posible, pero si tienes dudas puedes mandarme un correo a &lt;a href=&#34;mailto:rycko.arcr@gmail.com&#34;&gt;rycko.arcr@gmail.com&lt;/a&gt; y con gusto te responderé.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Hosting gratis con wordpress y Google</title>
+      <link>https://rycko.online/blog/hosting-gratis-con-wordpress-y-google/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/hosting-gratis-con-wordpress-y-google/</guid>
+      <description>&lt;p&gt;Hoy en día tener un sitio web es indispensable para cualquier empresa y la elección del hosting o como lo vas a hacer siempre es un tema difícil.&lt;/p&gt;
+&lt;p&gt;Generalmente si vas con un desarrollador te va a cobrar muy caro y hoy en día hay muchas empresas que se dedican a hacer paginas web, pero este tipo de empresas que te ofrecen paginas a un bajo costo generalmente te van a dar un producto muy genérico.&lt;/p&gt;
+&lt;p&gt;Pero ahora existen muchas herramientas que te facilitan la creación de paginas web, en este post te enseño como configurar una pagina web con Google Cloud y Wordpress, ademas google te regala 300 dolares para que tengas hosting gratis durante un año.&lt;/p&gt;
+&lt;p&gt;1.- Tener una cuenta de Google&lt;/p&gt;
+&lt;p&gt;Debes tener una cuenta de google para que puedas acceder a los servicios de google cloud, si no la tienes es muy fácil abrirla.&lt;/p&gt;
+&lt;p&gt;2.- Ingresa a google cloud platform y en el menú del lado derecho busca la sección Mercado (tiene la imagen de un carrito de compras)&lt;/p&gt;
+&lt;p&gt;3.- En el buscador de la pagina Mercado escribe Wordpress y te saldrán multiples opciones, busca la opción que dice Wordpresss Certified  by Bitnami and automatic.&lt;/p&gt;
+&lt;p&gt;4.- lo instalamos y aparecerá una sección al lado derecho de la pantalla donde se generaran la clave de acceso al administrador de Wordpress y la URL. Otra forma de entrar sería colocar la ip externa en el navegador.&lt;/p&gt;
+&lt;p&gt;Y eso es todo, en el vídeo de Youtube puedes ver este proceso de una manera mas grafica.&lt;/p&gt;
+&lt;p&gt;Espero que esto te ayude para futuros proyectos.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curso de python 1</title>
+      <link>https://rycko.online/blog/curso-de-python-1/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/curso-de-python-1/</guid>
+      <description>&lt;p&gt;Python es un lenguaje de programación que se ha hecho muy popular en los últimos años, ya que es un lenguaje de programación muy potente con una amplia variedad de aplicaciones y tiene una curva de aprendizaje baja, es decir que es relativamente facil de aprender.&lt;/p&gt;
+&lt;h2 id=&#34;instalación&#34;&gt;Instalación.&lt;/h2&gt;
+&lt;p&gt;La instalación de este lenguaje es muy sencilla.&lt;/p&gt;
+&lt;p&gt;En Windows solo tienes que descargar el instalador, desde &lt;a href=&#34;https://www.python.org/downloads/windows/&#34;&gt;aquí&lt;/a&gt; lo puedes hacer, solo asegurate de descargar la versión correcta para tu sistema operativo, después de esto solo tienes que darle doble click y seguir las instrucciones.&lt;/p&gt;
+&lt;p&gt;En OSX lo primero que debes hacer es verificar que tu sistema operativo acepte paquetes que &lt;strong&gt;NO&lt;/strong&gt; están en la app store, después debes bajar el repositorio, &lt;a href=&#34;https://www.python.org/downloads/release/python-361/&#34;&gt;este es el enlace&lt;/a&gt;, por último solo debes asegurarte de descargar la versión correcta para tu sistema operativo y darle doble click al instalador.&lt;/p&gt;
+&lt;p&gt;En Ubuntu lo más probable es que ya este instalado por default, si quieres verificarlo solo debes colocar el siguiente comando:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ python3 --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Si no lo tienes instalado te dejo a continuación una lista de comandos para instalarlo en diferentes distribuciones de Linux.&lt;/p&gt;
+&lt;p&gt;Debian, Ubuntu.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ sudo apt install python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Fedora
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ sudo dnf install python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+OpenSUSU
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ sudo zypper install python3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Para verificar la instalación exitosa de Python ingresa el siguiente comando en la terminal.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ python3 --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hola-mundo-en-python-en-modo-interactivo&#34;&gt;Hola Mundo en Python en modo interactivo&lt;/h2&gt;
+&lt;p&gt;El modo interactivo en Python es cuando los comandos son leídos desde la terminal o linea de comandos.
+Para utilizar Python de esta manera lo único que debemos hacer es ingresar el comando:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ python3.6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+te aparecerá un prompt con tres signos &amp;ldquo;Mayor que&amp;rdquo; (&amp;gt;), después solo tienes que inicializar una variable puedes nombrarla como tú quieras en este caso la nombramos miPrimerCodigoPy&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;gt;&amp;gt;&amp;gt;miPrimerCodigoPy=True&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Entonces pones una condicion if de la siguiente manera:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;gt;&amp;gt;&amp;gt;if miPrimerCodigoPy:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Te apareceran tres puntos(&amp;hellip;) indicando un subprompt para ingresar la siguiente sentencia es importante tomar en cuenta que es la sentencia de la condición &amp;ldquo;If&amp;rdquo; por lo tanto debe ir identada.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;...		print(&amp;#34;¡Hola Mundo Python!&amp;#34;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+te apareceran otra vez los tres puntos entonces solo debes volver a dar click y &amp;ldquo;¡Hola Mundo Python!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Para salir de Python debes ingresar:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;gt;&amp;gt;&amp;gt;exit()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Esto fue tu primer codigo en Python, saludos.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

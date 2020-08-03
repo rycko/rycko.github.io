@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rycko.online/post/</loc>
+    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rycko.online/categories/</loc>
     <lastmod>2020-03-24T00:00:00+00:00</lastmod>
   </url>
@@ -24,11 +29,6 @@
   
   <url>
     <loc>https://rycko.online/tags/hugo/</loc>
-    <lastmod>2020-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rycko.online/post/</loc>
     <lastmod>2020-03-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,7 +63,17 @@
   </url>
   
   <url>
+    <loc>https://rycko.online/blog/crea-tu-propia-tarjeta-de-presentacion-digital/</loc>
+    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rycko.online/blog/crea-una-pagina-web-profesional-hugo-y-github./</loc>
+    <lastmod>2020-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rycko.online/tags/netlify/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
   </url>
   

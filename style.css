@@ -1,3 +1,96 @@
-.elementor-element .elementor-element-661d383 .elementor-invisible .elementor-column .elementor-col-100 .elementor-top-column{
-  background-image: url("");
+.home__simulator--slider {
+	height: 3px;
+	cursor: pointer;
+	border: 0!important;
+	margin-right: 15px;
+	border-radius: 1.5px;
+	background-color: #e9ecef
+}
+
+.home__simulator--slider:after {
+	content: "";
+	width: 20px;
+	right: -15px;
+	height: 100%;
+	border: inherit;
+	position: absolute;
+	background: inherit;
+	border-radius: inherit
+}
+
+.home__simulator--slider .ui-slider-handle {
+	top: 1.5px;
+	width: 15px;
+	height: 15px;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	background-color: #1957ff
+}
+
+.home__simulator--slider .ui-slider-range-min {
+	background-color: #1957ff
+}
+.trading__dashboard--slide {
+	padding: 0 25px
+}
+.trading__dashboard--slide.slick-active .trading__dashboard--controls:before {
+	animation: slide 5.3s linear forwards
+}
+@keyframes slide {
+	0% {
+		width: 0
+	}
+	to {
+		width: 100%
+	}
+}
+.home__trading--slide {
+	height: 150px!important;
+	padding: 0 60px 0 100px;
+	position: relative;
+	font-size: 17.7px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #fff
+}
+
+@media (max-width:1280px) {
+	.home__trading--slide {
+		padding-left: 0
+	}
+}
+
+@media (max-width:1080px) {
+	.home__trading--slide {
+		height: 120px!important
+	}
+}
+
+@media (max-width:720px) {
+	.home__trading--slide {
+		height: auto!important;
+		padding-bottom: 40px
+	}
+}
+
+@media (max-width:600px) {
+	.home__trading--slide {
+		padding-right: 0
+	}
+}
+
+.home__trading--slide:after {
+	content: "";
+	left: 0;
+	bottom: -1px;
+	height: 1px;
+	position: absolute;
+	background-color: #00e465
+}
+
+.home__trading--slide.slick-active:after {
+	animation: slide 5.3s linear forwards
 }

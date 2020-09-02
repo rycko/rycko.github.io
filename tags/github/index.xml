@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Rycko</title>
+    <link>https://rycko.online/tags/github/</link>
+    <description>Recent content in github on Rycko</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 24 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://rycko.online/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hosting gratis con github</title>
+      <link>https://rycko.online/blog/hosting-gratis-con-github/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/hosting-gratis-con-github/</guid>
+      <description>&lt;p&gt;¿Quieres conseguir hosting gratis y de calidad? Es muy sencillo, a continuación te dejo una guía de como conseguir hosting gratis y construir una página profesional de manera muy rápida y fácil.&lt;/p&gt;
+&lt;p&gt;Antes que nada dejame aclararte que estos hosting son para sitios web estáticos.&lt;/p&gt;
+&lt;h2 id=&#34;sitios-web-estáticos&#34;&gt;Sitios web estáticos&lt;/h2&gt;
+&lt;p&gt;Los sitios web estáticos son sitios que son principalmente informativos, no tienen una interacción con el cliente en el momento de la sesión, por lo que este tipo de sitios web son recomendables para tiendas de afiliación, blogs, webs educativas, landing page, páginas para ad sense y lo que puedas imaginar.&lt;/p&gt;
+&lt;h2 id=&#34;hosting-gratis-para-tu-página-web-con-github&#34;&gt;hosting gratis para tu página web con github&lt;/h2&gt;
+&lt;h3 id=&#34;crea-tu-página-web-estática&#34;&gt;Crea tu página web estática.&lt;/h3&gt;
+&lt;p&gt;Lo primero es crear tu página web, yo te recomiendo hacerlo con hugo, que es un generador de sitios estáticos y &lt;a href=&#34;https://rycko.online/blog/crear-pagina-web-hugo/&#34;&gt;aquí&lt;/a&gt; te dejo el enlace a un artículo donde explico como hacerlo.&lt;/p&gt;
+&lt;h3 id=&#34;subelo-a-github&#34;&gt;Subelo a github&lt;/h3&gt;
+&lt;p&gt;1.- Debes tener una cuenta en github con cualquier correo la puedes abrir.&lt;/p&gt;
+&lt;p&gt;2.- Crea un nuevo repositorio nuevo, da click en el botón verde que dice new en la sección repositories en el lado derecho de la pantalla.&lt;/p&gt;
+&lt;p&gt;3.- Nombralo con esta nomenclatura (Muy importante).
+example.github.io&lt;/p&gt;
+&lt;p&gt;4.- Abre tu repositorio y clonalo en tu computadora con el botón verde que dice clone or download, solo dale click y copia la dirección que se te desplega.
+Después abre una ventana de terminal y escribe:&lt;/p&gt;
+&lt;p&gt;git clone la-dirección-que-copiaste-en-el-repositorio&lt;/p&gt;
+&lt;p&gt;5.- Copia todos los archivos de tu página estática en el directorio clonado.&lt;/p&gt;
+&lt;p&gt;6.- Subelo por medio de git con estos comandos:
+git add .
+git commit -m “puedes nombrarlo como tu quieras”
+git push origin master&lt;/p&gt;
+&lt;p&gt;con esto ya debería de estar tu sitio arriba.&lt;/p&gt;
+&lt;h3 id=&#34;configura-github-pages&#34;&gt;Configura github pages&lt;/h3&gt;
+&lt;p&gt;Haz click, en el repositorio, en la sección configuration en la última pestaña del lado derecho de la sección.
+Después desplázate hasta la sección que se llama github pages y cambia la sección que dice Source, donde aparecerá un botón que dice none, entonces despliega y escoge master branch o master branch/docs folder y habilita la casilla enforce https.
+Dale refrescar a la pagina y te aparecerá un mensaje como este:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Your site is published at https://example.github.io, 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Por último también puedes configurar un dominio propio en la sección custom domain.&lt;/p&gt;
+&lt;p&gt;Espero que esta información te sea de utilidad para tus proyectos.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Crea tu propia tarjeta de presentación digital</title>
+      <link>https://rycko.online/blog/crea-tu-propia-tarjeta-de-presentacion-digital/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/crea-tu-propia-tarjeta-de-presentacion-digital/</guid>
+      <description>&lt;p&gt;Hugo es el más rápido framework para construir sitios web.
+Este tutorial se hizo basándose en el sistema operativo Ubuntu.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bUsAfC21KWM&amp;amp;t=2s&#34;&gt;&lt;img src=&#34;https://rycko.online/img/Hugo.png&#34; alt=&#34;crear tu pagina web con hugo y github&#34; title=&#34;hugo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1--instalar-hugo&#34;&gt;1.- Instalar Hugo.&lt;/h2&gt;
+&lt;p&gt;Puedes instalar Hugo de manera rápida con la guía que hay en la página oficial de Hugo, tiene una guía para cada sistema operativo. Puedes ir a la página &lt;a href=&#34;https://gohugo.io/&#34;&gt;aquí.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2--crear-la-carpeta-raíz-desde-la-terminal&#34;&gt;2.- Crear la carpeta raíz desde la terminal.&lt;/h2&gt;
+&lt;p&gt;Solo necesitas escribir este comando en la terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ hugo new site nombre_de_la_carpeta_raiz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;3--entra-a-la-carpeta-raíz&#34;&gt;3.- Entra a la carpeta raíz.&lt;/h2&gt;
+&lt;p&gt;Te colocas adentro de la carpeta raíz con estos comandos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ cd nombre_de_la_carpeta_raiz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;4--inicia-el-server-de-hugo&#34;&gt;4.- Inicia el server de Hugo&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ hugo server -D&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;5--abre-tu-página-en-el-navegador&#34;&gt;5.- Abre tu página en el navegador&lt;/h2&gt;
+&lt;p&gt;En el navegador escribe localhost:1313 y te parecerá una pantalla en blanco, esa es tu página web.&lt;/p&gt;
+&lt;h2 id=&#34;6--agrega-un-tema&#34;&gt;6.- Agrega un tema&lt;/h2&gt;
+&lt;p&gt;Tienes una gran variedad de temas a escoger, en &lt;strong&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;está dirección&lt;/a&gt;&lt;/strong&gt; vas a encontrar todos los temas de hugo.
+Hay dos formas de agregar un tema en hugo, la primera sería escogiendo el tema y descargándolo para luego pegar esa carpeta en la subcarpeta themes de la carpeta raíz.
+Otra forma sería, con git instalado en tu máquina, copias la dirección del tema en GitHub y lo clonas en la carpeta theme con estos comandos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ git clone direccion_del_tema_en_github&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;7--copia-el-sitio-de-ejemplo-de-tu-tema&#34;&gt;7.- Copia el sitio de ejemplo de tu tema&lt;/h2&gt;
+&lt;p&gt;El sitio de ejemplo del tema viene en la carpeta que se llama example site, copias su contenido y lo pegas en la carpeta raíz sustituyendo todos archivos con nombres iguales.&lt;/p&gt;
+&lt;p&gt;Si no viene el sitio de ejemplo puedes bajar uno de &lt;strong&gt;&lt;a href=&#34;https://github.com/gohugoio/hugoBasicExample&#34;&gt;está dirección.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+&lt;p&gt;Hugo es una alternativa muy practica a Wordpress y es muy fácil de utilizar.
+Traté de resumirlo y hacerlo lo más claro posible, pero si tienes dudas puedes mandarme un correo a &lt;a href=&#34;mailto:rycko.arcr@gmail.com&#34;&gt;rycko.arcr@gmail.com&lt;/a&gt; y con gusto te responderé.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Crea una página web profesional Hugo y github.</title>
+      <link>https://rycko.online/blog/crea-una-pagina-web-profesional-hugo-y-github./</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rycko.online/blog/crea-una-pagina-web-profesional-hugo-y-github./</guid>
+      <description>&lt;p&gt;Hugo es el framework más rápido para construir sitios web.
+Te recomiendo seguir estos pasos en el sistema operativo Ubuntu o cualquier otro de linux, si utilizas IOSX o Windows te recomiendo instalar una maquina virutal con cualquier distribución de linux.&lt;/p&gt;
+&lt;h2 id=&#34;1--instalar-hugo&#34;&gt;1.- Instalar Hugo.&lt;/h2&gt;
+&lt;p&gt;Puedes instalar Hugo de manera rápida con la guía que hay en la página oficial de Hugo, tiene una guía para cada sistema operativo. Puedes ir a la página &lt;a href=&#34;https://gohugo.io/&#34;&gt;aquí.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2--crear-la-carpeta-raíz-desde-la-terminal&#34;&gt;2.- Crear la carpeta raíz desde la terminal.&lt;/h2&gt;
+&lt;p&gt;Solo necesitas escribir este comando en la terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ hugo new site nombre_de_la_carpeta_raiz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;3--entra-a-la-carpeta-raíz&#34;&gt;3.- Entra a la carpeta raíz.&lt;/h2&gt;
+&lt;p&gt;Te colocas adentro de la carpeta raíz con estos comandos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ cd nombre_de_la_carpeta_raiz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;4--inicia-el-server-de-hugo&#34;&gt;4.- Inicia el server de Hugo&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ hugo server -D&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;5--abre-tu-página-en-el-navegador&#34;&gt;5.- Abre tu página en el navegador&lt;/h2&gt;
+&lt;p&gt;En el navegador escribe localhost:1313 y te parecerá una pantalla en blanco, esa es tu página web.&lt;/p&gt;
+&lt;h2 id=&#34;6--agrega-un-tema&#34;&gt;6.- Agrega un tema&lt;/h2&gt;
+&lt;p&gt;Tienes una gran variedad de temas a escoger, en &lt;strong&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;está dirección&lt;/a&gt;&lt;/strong&gt; vas a encontrar todos los temas de hugo.
+Hay dos formas de agregar un tema en hugo, la primera sería escogiendo el tema y descargándolo para luego pegar esa carpeta en la subcarpeta themes de la carpeta raíz.
+Otra forma sería, con git instalado en tu máquina, copias la dirección del tema en GitHub y lo clonas en la carpeta theme con estos comandos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;$ git clone direccion_del_tema_en_github&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;7--copia-el-sitio-de-ejemplo-de-tu-tema&#34;&gt;7.- Copia el sitio de ejemplo de tu tema&lt;/h2&gt;
+&lt;p&gt;El sitio de ejemplo del tema viene en la carpeta que se llama example site, copias su contenido y lo pegas en la carpeta raíz sustituyendo todos archivos con nombres iguales.&lt;/p&gt;
+&lt;p&gt;Si no viene el sitio de ejemplo puedes bajar uno de &lt;strong&gt;&lt;a href=&#34;https://github.com/gohugoio/hugoBasicExample&#34;&gt;está dirección.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusión&#34;&gt;Conclusión&lt;/h2&gt;
+&lt;p&gt;Hugo es una alternativa muy practica a Wordpress y es muy fácil de utilizar.
+Traté de resumirlo y hacerlo lo más claro posible, pero si tienes dudas puedes mandarme un correo a &lt;a href=&#34;mailto:rycko.arcr@gmail.com&#34;&gt;rycko.arcr@gmail.com&lt;/a&gt; y con gusto te responderé.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

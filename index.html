@@ -13,7 +13,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academia 4.3.1">
-  <meta name="generator" content="Hugo 0.75.1" />
+  <meta name="generator" content="Hugo 0.80.0" />
 
   
 
@@ -1951,7 +1951,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/rycko.arcr@gmail.com">
+      <form name="contact" onsubmit="sendMail()" method="POST" action="https://formspree.io/rycko.arcr@gmail.com">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Nombre</label>
           <input type="text" name="name" class="form-control rounded-0 w-100" id="inputName"
@@ -1971,6 +1971,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           class="btn btn-outline-primary px-3 py-2">Enviar</button>
       </form>
     </div>
+    <scrip type="text/javascript">
+    function sendMail() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  if (name !== null
+    && email !== null
+    && message !== null) {
+    var json_object = {
+      "name": name,
+      "email": email,
+      "message": message
+    };
+    $.ajax({
+      cache: false,
+      data: JSON.stringify(json_object),
+      contentType: "application/json",
+      dataType: "json",
+      type: 'POST',
+      url: 'https://al21ty2spc.execute-api.us-west-2.amazonaws.com/first-api',
+      success: function () {
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+        toastr.success('Tu comentario fue enviado correctamente.', { timeOut: 5000 });
+      },
+      error: function (XMLHttpRequest, textStatus, errorThrown) {
+        toastr.error('Tuvimos un problema al recibir su solicitud, Favor de volver a intentar en unos minutos.');
+      }
+    });
+  }
+</scrip>
     
 
   </div>
@@ -2023,56 +2055,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
   </div>
 </div>
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="googled7a68b958078d332" class="home-section wg-blank   "  >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-12 section-heading text-center">
-      
-      
-    </div>
-    <div class="col-12">
-      google-site-verification: googled7a68b958078d332.html
-    </div>
-  
-</div>
-
     </div>
   </section>
 
